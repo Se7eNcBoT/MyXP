@@ -150,7 +150,17 @@
       "name": "抖音极速版刷音符",
       "keys": ["dyheadlist"],
       "descs_html": [],
-      "settings": [],
+      "settings": [
+        {
+          "id": "dyjs",
+          "name": "抖音极速版刷音符",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "抖音极速版刷音符"
+        }
+      ],
       "icons": [
         "https://gitee.com/passerby-b/javascript/raw/master/icon/dy.png",
         "https://gitee.com/passerby-b/javascript/raw/master/icon/dy.png"
