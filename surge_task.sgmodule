@@ -2,33 +2,30 @@
 #!desc=签到、提醒等定时任务  @MexpS7
 
 [MITM]
-hostname = trade-acs.m.taobao.com, api.m.jd.com, *.bilibili.com, music.163.com, act.10010.com, m.client.10010.com, wapside.189.cn:9001, ifac*.iqiyi.com, nebula.kuaishou.com, mp.weixin.qq.com, *.amemv.com, ms.jr.jd.com
-
+hostname =
 [Script]
-京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-Bilibili签到 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,script-update-interval=0
-// ♣️西梅 = type=cron,cronexp=35 9 * * *,script-path=https://raw.githubusercontent.com/age174/-/main/ximei.js,script-update-interval=0
-// 📖看看集自动阅读 = type=cron,cronexp=0 */60 12-23 * *,script-path=http://nm66.top/kjj.js,script-update-interval=0
-// 🌈彩虹消消消 = type=cron,cronexp=*/5 * * * *,script-path=http://nm66.top/chxx.js,script-update-interval=0
-// 😹动物研究院 = type=cron,cronexp="10 9,17 * * *",script-path=https://raw.githubusercontent.com/age174/-/main/dwyjy.js,script-update-interval=0
-// 🪆超市小达人 = type=cron,cronexp="40 9,17 * * *",script-path=https://raw.githubusercontent.com/age174/-/main/csxdr.js,script-update-interval=0
-// 🍱食材大冲关 = type=cron,cronexp="20 9,16 * * *",script-path=https://raw.githubusercontent.com/age174/-/main/scdcg.js,script-update-interval=0
-// 🏵考状元娶老婆 = type=cron,cronexp=*/5 * * * *,script-path=https://raw.githubusercontent.com/age174/-/main/qlp.js,script-update-interval=0
-// 💐如意花园 = type=cron,cronexp=*/15 * * * *,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ryhy.js,script-update-interval=0
-// 🎶抖音极速版 = type=cron,cronexp=*/30 * 1-22 * * *,script-path=https://gitee.com/passerby-b/javascript/raw/master/dyjs.js,script-update-interval=0
-// 🥛特仑苏小程序 = type=cron,cronexp=0 0 1 1 *,script-path=https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tls.js,script-update-interval=0
-// 🐣幸福养鸡场 = type=cron,cronexp=*/10 0-23 * * *,script-path=https://raw.githubusercontent.com/age174/-/main/xfyjc.js,script-update-interval=0
-// 📖千禾阅读 = type=cron,cronexp=25 9-22 * * *,script-path=https://raw.githubusercontent.com/age174/-/main/qhyd.js,script-update-interval=0
-// 🌺开心花园 = type=cron,cronexp=*/30 * * * *,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/kxhy.js,script-update-interval=0
-// 🧊Keep打卡偷能量 = type=cron,cronexp=0 6 * * *,script-path=https://raw.githubusercontent.com/xl2101200/-/main/keepdk.js,script-update-interval=0
-// 🧊Keep打卡浇水 = type=cron,cronexp=0 */30 * * * *,script-path=https://raw.githubusercontent.com/xl2101200/-/main/keepjs.js,script-update-interval=0
-// 💹走路赚 = type=cron,cronexp=*/10 6-23 * * *,script-path=https://raw.githubusercontent.com/DD-D1/Script/main/zoulusign.js,script-update-interval=0
-// 🔥燃旅视频 = type=cron,cronexp="1,30 10-20 * * *",script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/ranlv.js,script-update-interval=0
-// 🔙返利网 = type=cron,cronexp="0 0 11,15,20 * * *",script-path=https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js,script-update-interval=0
-// 🕶抖音极速版 = type=cron,cronexp=*/20 1-22 * * *,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js,script-update-interval=0
-// 🐮自选股养牛 = type=cron,cronexp="0,30 2 * * *",script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockcow.js,script-update-interval=0
-// 📈腾讯自选股 = type=cron,cronexp=30 16 * * *,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js,script-update-interval=0
-// 🧅葱花视频 = type=cron,cronexp=*/20 0-23 * * *,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js,script-update-interval=0
-// 🔥火山视频极速版 = type=cron,cronexp=*/10 * * * *,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/hotsoon_old.js,script-update-interval=0
-// 📲电信营业厅 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js,script-update-interval=0
-// 👀聚看点 = type=cron,cronexp=*/10 */2 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/jukan.js,script-update-interval=0
+♣️西梅 = type=cron,cronexp=35 9 * * *,script-path=https://raw.githubusercontent.com/age174/-/main/ximei.js,script-update-interval=0
+📖看看集自动阅读 = type=cron,cronexp=0 */60 12-23 * *,script-path=http://nm66.top/kjj.js,script-update-interval=0
+🌈彩虹消消消 = type=cron,cronexp=*/5 * * * *,script-path=http://nm66.top/chxx.js,script-update-interval=0
+😹动物研究院 = type=cron,cronexp="10 9,17 * * *",script-path=https://raw.githubusercontent.com/age174/-/main/dwyjy.js,script-update-interval=0
+🪆超市小达人 = type=cron,cronexp="40 9,17 * * *",script-path=https://raw.githubusercontent.com/age174/-/main/csxdr.js,script-update-interval=0
+🍱食材大冲关 = type=cron,cronexp="20 9,16 * * *",script-path=https://raw.githubusercontent.com/age174/-/main/scdcg.js,script-update-interval=0
+🏵考状元娶老婆 = type=cron,cronexp=*/5 * * * *,script-path=https://raw.githubusercontent.com/age174/-/main/qlp.js,script-update-interval=0
+💐如意花园 = type=cron,cronexp=*/15 * * * *,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ryhy.js,script-update-interval=0
+🎶抖音极速版 = type=cron,cronexp=*/30 * 1-22 * * *,script-path=https://gitee.com/passerby-b/javascript/raw/master/dyjs.js,script-update-interval=0
+🥛特仑苏小程序 = type=cron,cronexp=0 0 1 1 *,script-path=https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tls.js,script-update-interval=0
+🐣幸福养鸡场 = type=cron,cronexp=*/10 0-23 * * *,script-path=https://raw.githubusercontent.com/age174/-/main/xfyjc.js,script-update-interval=0
+📖千禾阅读 = type=cron,cronexp=25 9-22 * * *,script-path=https://raw.githubusercontent.com/age174/-/main/qhyd.js,script-update-interval=0
+🌺开心花园 = type=cron,cronexp=*/30 * * * *,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/kxhy.js,script-update-interval=0
+🧊Keep打卡偷能量 = type=cron,cronexp=0 6 * * *,script-path=https://raw.githubusercontent.com/xl2101200/-/main/keepdk.js,script-update-interval=0
+🧊Keep打卡浇水 = type=cron,cronexp=0 */30 * * * *,script-path=https://raw.githubusercontent.com/xl2101200/-/main/keepjs.js,script-update-interval=0
+💹走路赚 = type=cron,cronexp=*/10 6-23 * * *,script-path=https://raw.githubusercontent.com/DD-D1/Script/main/zoulusign.js,script-update-interval=0
+🔥燃旅视频 = type=cron,cronexp="1,30 10-20 * * *",script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/ranlv.js,script-update-interval=0
+🔙返利网 = type=cron,cronexp="0 0 11,15,20 * * *",script-path=https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js,script-update-interval=0
+🕶抖音极速版 = type=cron,cronexp=*/20 1-22 * * *,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js,script-update-interval=0
+🐮自选股养牛 = type=cron,cronexp="0,30 2 * * *",script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockcow.js,script-update-interval=0
+📈腾讯自选股 = type=cron,cronexp=30 16 * * *,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js,script-update-interval=0
+🧅葱花视频 = type=cron,cronexp=*/20 0-23 * * *,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js,script-update-interval=0
+🔥火山视频极速版 = type=cron,cronexp=*/10 * * * *,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/hotsoon_old.js,script-update-interval=0
+📲电信营业厅 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js,script-update-interval=0
+👀聚看点 = type=cron,cronexp=*/10 */2 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/jukan.js,script-update-interval=0
