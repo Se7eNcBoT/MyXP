@@ -1,6 +1,9 @@
 #!name=定时任务
 #!desc=签到、提醒等定时任务  @MexpS7
 
+[MITM]
+hostname = app.hubonews.com, *.kxlock.com,*.kytelnet.com，*.shop, *.67mob.com, zoon.renyouwangluo.cn, api-access.pangolin-sdk-toutiao.com, market.renyouwangluo.cn, redbag.renyouwangluo.cn, ibestfanli.com, bp-api.coohua.com, *.snssdk.com, *.amemv.com, www.qianhe*.com, www.xiaeke.com, api.xiaomuyu888.com, ranlv.lvfacn.com, 
+
 [Script]
 ♣️西梅 = type=cron,cronexp=35 9 * * *,script-path=https://raw.githubusercontent.com/age174/-/main/ximei.js,script-update-interval=0
 📖看看集自动阅读 = type=cron,cronexp=0 */60 12-23 * *,script-path=http://nm66.top/kjj.js,script-update-interval=0
