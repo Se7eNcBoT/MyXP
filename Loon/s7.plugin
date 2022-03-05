@@ -1,1 +1,9 @@
-s7.plugin
+# 该插件阅仅适用于Loon, 用于哔哩哔哩登陆+观看+分享=all+5.
+# 该脚本作者 by:@gmomotsly
+
+[Mitm]
+hostname= *.bilibili.com
+
+[Script]
+http-request https://api.bilibili.com/x/web-interface/nav ,requires-body=true, timeout=10, tag=bilibili每日任务,script-path=bilibili.js,enabled=true
+
