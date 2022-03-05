@@ -5,5 +5,5 @@
 hostname= *.bilibili.com
 
 [Script]
-http-request https://api.bilibili.com/x/web-interface/nav ,requires-body=true, timeout=10, tag=bilibili每日任务,script-path=bilibili.js,enabled=true
+http-request https://api.bilibili.com/x/web-interface/nav, requires-body=true, timeout=10, tag=bilibili每日任务,script-path=bilibili.js,enabled=true
 
