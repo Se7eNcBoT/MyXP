@@ -5,8 +5,7 @@
 hostname= *.bilibili.com
 
 [Script]
-cron "0 7-21/7 * * *" script-path=bilibili.js, tag=bilibili每日任务, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_1.png
-enable = false
+cron "0 7-21/7 * * *" script-path=bilibili.js,tag=bilibili每日任务,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_1.png,enable=false
 
-http-request https://api.bilibili.com/x/web-interface/nav, requires-body=true, timeout=10, tag=bilibili每日任务cookie,script-path=bilibili.js, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_1.png,enabled=true
+http-request https://api.bilibili.com/x/web-interface/nav,requires-body=true,timeout=10,tag=bilibili每日任务cookie,script-path=bilibili.js,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_1.png,enabled=true
 
